@@ -1,0 +1,136 @@
+/*style.css*/
+
+@media (min-width: 700px){
+
+  body {
+    background-color: green;
+  
+  }
+}
+
+.hero{
+  text-align: center;
+  background-image: url("https://unsplash.it/900/600?image=631");
+  /*background-image: url(data:img/monitor.png);*/
+  background-size: cover;
+  padding: 150px;
+  color: white;
+  text-shadow: 1px 1px 5px black;
+
+}
+.hero h1 {
+  font-family: 'Pangolin', cursive;
+  color: red;
+  font-weight: lighter;
+  font-size: 50px;
+  text-shadow: 1px 1px 5px black;
+  }
+
+.hero p{
+  color:white;
+  opacity:0.8;
+  font-size: 30px;
+  font-weight: lighter;
+}
+
+  h2{
+  font-weight: 600;
+  font-size: 20px;
+}
+
+
+.btn a{
+  color:white !important;
+
+}
+
+#row{
+  display: inline-block;
+  width: 300px;
+  padding:30px;
+  border-radius: 8px;
+  background-color: white;
+  text-align: center;
+}
+
+
+body {
+  background: rgb(245, 245, 245);
+  color: black;
+  font-size: 25px;
+  font-family: Helvetica;
+}
+
+
+
+
+a {
+  color:blue;
+}
+
+a:hover {
+  text-decoration: none;
+  color: blue;
+}
+
+.card{
+  
+  background-color: #08461d;
+  /*padding: 20px;*/
+  /*margin:100px 0;*/
+  /*font-weight: lighter;*/
+  width: 100%;
+  display: inline-block;
+  border: 1px lightgrey;
+  border-radius: 5px;
+  min-height: 400px;
+  vertical-align: top;
+  /*margin-left: 20px;
+  outline: solid;*/
+
+}
+.card-highlighted{
+  border:5px solid red;
+  background-color: #08461d;
+}
+
+img{
+  width: 100px;
+}
+
+.fa{
+  font-size: 80px;
+}
+
+.marker{
+  background-color: yellow;
+  color:black;
+
+}
+
+#footer{
+  padding: 30px;
+  background-color: #021101;
+  color: lightgrey;
+  font-size:30px;
+  text-align: center;
+ }
+
+ .link-list {
+  display: inline;
+  text-align: center;
+  padding: 0 50px;
+
+
+ }
+
+.link-list li{
+  display: inline;
+  text align: center;
+  padding 0 50px;
+}
+
+}
+#footer a:hover{
+ color:white;
+}
